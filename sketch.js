@@ -1,7 +1,12 @@
+// const canvasWidth = window.innerWidth
+// const canvasHeight = window.innerHeight
+
 let coinSprite, blobSprite
 let images
 let game
 let sounds
+
+
 
 
 function preload() {
@@ -15,6 +20,7 @@ function preload() {
 
 function setup() {
   createCanvas(800, 400)
+  // createCanvas(canvasWidth, canvasHeight)
   frameRate(12)
   game = new Game(images, sounds)
 }

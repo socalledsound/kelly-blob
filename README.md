@@ -1,6 +1,8 @@
 # kelly game working a bit
 
--- could use some images facing the other way for moving left???
--- and then maybe give the slug the chance to collect some coin?
+hi kelly, this works, esp compare the image loading to yours, notice I load the images in Game and then pass them
+in to the classes that need them.
 
-demo:https://socalledsound.github.io/kelly-slug-game/
+you could also load them in the classes, but don't load them both places!
+
+also, note the other stuff I said in the email.
